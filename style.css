@@ -1,0 +1,29 @@
+body{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+.image-card {
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    position: relative;
+    display: inline-block;
+}
+.image-card img {
+    width: 100%;
+    display: block;
+}
+
+.badge {
+    position: absolute;
+    background-color: red;
+    top: 10px;
+    right: 10px;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+}
